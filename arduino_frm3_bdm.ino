@@ -7,9 +7,12 @@
 // text command interface over USB CDC at 1 Mbaud, consumed by the
 // Python host driver in frm3.py.
 //
-// Wiring: D2 to BKGD test pad, D3 to RESET test pad, both through
-// 1 kOhm series resistors. GND between Arduino and FRM3. Power the
-// FRM3 from its own supply.
+// Wiring: D2 to BKGD, D3 to RESET, both through 1 kOhm series
+// resistors. Common GND. Power the chip from a bench 5 V supply
+// directly on its VCC pin. Do not feed power through the FRM3's
+// vehicle connector and do not use the Arduino's 5 V output.
+// All four pads (BKGD, RESET, GND, VCC) are on the back of the
+// FRM3 PCB.
 //
 // Address spaces use the chip's 23-bit global address:
 //   P-Flash:        0x780000..0x79FFFF (block 1)
