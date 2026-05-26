@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+//
 // arduino_frm3_bdm: BDM firmware for the MC9S12XEQ384.
 //
 // Runs on an Arduino Uno R4 (WiFi or Minima). Bit-bangs the HCS12X BDM

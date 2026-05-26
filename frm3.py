@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Host driver for the arduino_frm3_bdm firmware.
 
 Talks the line-oriented text protocol the firmware exposes over USB

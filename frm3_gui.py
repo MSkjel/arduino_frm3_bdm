@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Tkinter GUI for the arduino_frm3_bdm tool.
 
 Wraps the BDM driver and EEPROM workflow from frm3.py in a single

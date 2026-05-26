@@ -108,3 +108,13 @@ https://gitlab.com/tomvleeuwen/dflash_to_eeprom.
 The wider FRM3 recovery workflow was assembled from publicly available
 write-ups, repair notes, and community discussion across various
 automotive ECU and BMW repair forums.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file
+for the full text.
+
+In short: you may use, modify, and redistribute this software for any
+purpose, including commercially, provided the copyright notice and
+permission notice are preserved. The software is provided as-is, with
+no warranty.
